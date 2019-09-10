@@ -1,0 +1,41 @@
+body {
+  padding-top: 201px;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+}
+
+.container-head {
+  padding-top: 325px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.container-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.container-services-cards {
+  max-width: 1150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin: 20px 10px 20px 10px;
+}
+
+.btn-bottom-center {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+}

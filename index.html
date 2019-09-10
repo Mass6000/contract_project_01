@@ -3,77 +3,184 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <title>Rocky Mountain Large Animal Clinic</title>
 </head>
 
 <body>
+  <nav class="fixed-top">
+    <nav class="navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1">
+        <img src="./images/rocky-mountain-vets-logo-horse.png"
+          alt="Logo for the Rocky Mountain Large Animal Clinic, Inc. Color green with a horse cameo in clip-art style"
+          class="img-fluid">
+      </span>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+        <h3>Call 801-798-8123</h3>
+      </div>
+    </nav>
+  </nav>
+  <img src="./images/veterinary-services-horse-vet-banner.jpg" alt="Banner with dark saddled horse" class="img-fluid">
+
   <div class="container_head">
-    <img src="./images/rocky-mountain-vets-logo-horse.png"
-      alt="Logo for the Rocky Mountain Large Animal Clinic, Inc. Color green with a horse cameo in clip-art style">
-    <h1>Rocky Mountain Large Animal Clinic</h1>
-    <div>Paul M. Haderlie, DVM</div>
-    <div>Jared M. Christensen, DVM</div>
-    <h2>Convieniently located in Spanish Fork Utah</h2>
-    <div>Caring for the horses of Central Utah for over 25 years</div>
-    <div>For Equine Problems Big & Small We Can Help!</div>
-    <h2>Rocky Mountain Large Animal Clinic</h2>
-    <div>We have been providing veterinary services for the horses of Central Utah for more than 25 years. Dr. Haderlie
-      and Dr. Christensen would love to help with the following services for your horse, mule or donkey:</div>
+    <h1 class="text-align-center">Rocky Mountain Large Animal Clinic</h1>
+    <div class="text-align-center">Paul M. Haderlie, DVM</div>
+    <div class="text-align-center">Jared M. Christensen, DVM</div>
+    <hr>
+    <h2 class="text-align-center">Convieniently located in Spanish Fork Utah</h2>
+    <div class="text-align-center">Caring for the horses of Central Utah for over 25 years</div>
+    <div class="text-align-center">For Equine Problems Big & Small We Can Help!</div>
+    <hr>
   </div>
-  <div class="container_services">
-    <div>
-      <img src="./images/wound-care-horse-vet-emergency-clinic.jpg" alt="Horse with face wound">
-      <h3>wound care</h3>
-      <div>Timely and appropriate care of your hourse's wound will insure the best long-term outcome.</div>
+
+  <div class="container-services">
+    <div>We have been providing veterinary services for the horses of Central Utah for more than 25 years. Dr.
+      Haderlie and Dr. Christensen would love to help with the following services for your horse, mule or donkey:
     </div>
-    <div>
-      <img src="./images/routine-preventive-medicine-vet.jpg" alt="Horse receiving routine care">
-      <h3>routine care</h3>
-      <div>Click here to learn more about recommended routine care for your animal.</div>
+    <div class="container-services-cards">
+      <div class="card" style="width: 12rem;">
+        <img src="./images/wound-care-horse-vet-emergency-clinic.jpg" class="card-img-top" alt="Horse with face wound">
+        <div class="card-body">
+          <h5 class="card-title">wound care</h5>
+          <p class="card-text">Timely and appropriate care of your hourse's wound will insure the best long-term
+            outcome.
+          </p>
+          <a href="#" class="btn btn-primary btn-bottom-center">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 12rem; height: 32rem;">
+        <img src="./images/routine-preventive-medicine-vet.jpg" class="card-img-top" alt="Horse receiving routine care">
+        <div class="card-body">
+          <h5 class="card-title">routine care</h5>
+          <p class="card-text">Learn more about recommended routine care for your animal.</p>
+          <a href="#" class="btn btn-primary btn-bottom-center">Go somewhere</a>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 12rem; height: 32rem;">
+        <img src="./images/lameness.jpg" class="card-img-top" alt="Horse being treated for lameness">
+        <div class="card-body">
+          <h5 class="card-title">lameness</h5>
+          <p>A common and frustrating issue. Let us help you get your horse back to work.</p>
+          <a href="#" class="btn btn-primary btn-bottom-center">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 12rem; height: 32rem;">
+        <img src="./images/medicine.jpg" class="card-img-top" alt="Horse receiving medicine">
+        <div class="card-body">
+          <h5 class="card-title">medicine</h5>
+          <p>Once a proper diagnosis is made we can prescribe the proper medication.</p>
+          <a href="#" class="btn btn-primary btn-bottom-center">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 12rem; height: 32rem;">
+        <img src="./images/equine-surgery-horse-vet_2.jpg" class="card-img-top"
+          alt="Horse in surgery being attended to by veterinarian">
+        <div class="card-body">
+          <h5 class="card-title">surgery</h5>
+          <p>We have top of the line equipoment and facilities tin order to treat your animal.</p>
+              <a href="#" class="btn btn-primary btn-bottom-center">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 12rem; height: 32rem;">
+        <img src="./images/reprodution-services.jpg" class="card-img-top" alt="Mare receiving reproductive treatment">
+        <div class="card-body">
+          <h5 class="card-title">reproduction services</h5>
+          <p>Including breeding by artificial insemination, ultrasound exams, uterine treatments, mare & foal care.
+          </p>
+          <a href="#" class="btn btn-primary btn-bottom-center">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 12rem; height: 32rem;">
+        <img src="./images/equine-dentistry.jpg" class="card-img-top" alt="Hourse receiving dental care">
+        <div class="card-body">
+          <h5 class="card-title">dentistry</h5>
+          <p>Teeth affect so much of the overall health of your animal and should be checked annually.</p>
+          <a href="#" class="btn btn-primary btn-bottom-center">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 12rem; height: 32rem;">
+        <img src="./images/pre-purchase-exams.jpg" class="card-img-top" alt="Horse being examined by veterinarian">
+        <div class="card-body">
+          <h5 class="card-title">pre-purchase exams</h5>
+          <p>Avoid problems down the road by getting that horse checked out first!</p>
+          <a href="#" class="btn btn-primary btn-bottom-center">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 12rem; height: 32rem;">
+        <img src="./images/client-education.jpg" class="card-img-top" alt="Veterinarian giving slide presentation">
+        <div class="card-body">
+          <h5 class="card-title">educatain seminars</h5>
+          <p>The more you learn, the better prepared you are to keep your animal in top condition.</p>
+          <a href="#" class="btn btn-primary btn-bottom-center">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 12rem; height: 32rem;">
+        <img src="./images/diagnostic-imaging.jpg" class="card-img-top" alt="digital x-ray of a large animal">
+        <div class="card-body">
+          <h5 class="card-title">diagnostic imaging</h5>
+          <p>In-house digital radiography, digital ultrasound, and endoscopy are powerful tools for
+            determining the
+            right
+            diagnosis and appropriate treatment.</p>
+          <a href="#" class="btn btn-primary btn-bottom-center">Go somewhere</a>
+        </div>
+      </div>
+
     </div>
-    <div>
-      <img src="./images/lameness.jpg" alt="Horse being treated for lameness">
-      <h3>lameness</h3>
-      <div>A common and frustrating issue. Let us help you get your horse back to work.</div>
-    </div>
-    <div>
-      <img src="./images/medicine.jpg" alt="Horse receiving medicine">
-      <h3>medicine</h3>
-      <div>Once a proper diagnosis is made we can prescribe the proper medication.</div>
-    </div>
-    <div>
-      <img src="./images/equine-surgery-horse-vet.jpg" alt="Horse in surgery being attended to by veterinarian">
-      <h3>surgery</h3>
-      <div>We have top of the line equipoment and facilities tin order to treat your animal</div>
-    </div>
-    <div>
-      <img src="./images/reprodution-services.jpg" alt="Mare receiving reproductive treatment">
-      <h3>reproduction services</h3>
-      <div>Including breeding by artificial insemination, ultrasound exams, uterine treatments, mare & foal care.</div>
-    </div>
-    <div>
-      <img src="./images/equine-dentistry.jpg" alt="Hourse receiving dental care">
-      <h3>dentistry</h3>
-      <div>Teeth affect so much of the overall health of your animal and should be checked annually.</div>
-    </div>
-    <div>
-      <img src="./images/pre-purchase-exams.jpg" alt="Horse being examined by veterinarian">
-      <h3>pre-purchase exams</h3>
-      <div>Avoid problems down the road by getting that horse checked out first!</div>
-    </div>
-    <div>
-      <img src="./images/client-education.jpg" alt="Veterinarian giving slide presentation">
-      <h3>educatain seminars</h3>
-      <div>The more you learn, the better prepared you are to keep your animal in top condition.</div>
-    </div>
-    <div>
-      <img src="./images/diagnostic-imaging.jpg" alt="digital x-ray of a large animal">
-      <h3>diagnostic imaging</h3>
-      <div>In-house digital radiography, digital ultrasound, and endoscopy are powerful tools for determining the right
-        diagnosis and appropriate treatment.</div>
-    </div>
+
   </div>
   <div>
     <div>
@@ -104,11 +211,20 @@
 
 
 
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 <footer>
-  <div>© 2019-2020 Rocky Mountain Large Animal Clinic 3226 N. 1150 W. (Google Maps or County Address: 4500 S. 800 W. Spanish Fork,
-  UT 84660 )</div>
+  <div>© 2019-2020 Rocky Mountain Large Animal Clinic 3226 N. 1150 W. (Google Maps or County Address: 4500 S. 800 W.
+    Spanish Fork,
+    UT 84660 )</div>
 </footer>
 
 </html>
