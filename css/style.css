@@ -1,13 +1,16 @@
 .navbar-brand {
   display: flex;
   justify-content: center;
-  color: #0f452A !important;
+  color: #0f452a !important;
   font-weight: bold; }
 
 .caption-text-one {
   transform: translateY(-50%);
   bottom: 0;
   top: 35%; }
+
+.greentext {
+  color: #0f452a; }
 
 .caption-text-two {
   transform: translateY(-50%);
@@ -37,11 +40,59 @@
 .card {
   margin: 20px 10px 20px 10px; }
 
+.info-card {
+  width: 13rem;
+  height: 27rem; }
+
+.card-title {
+  text-transform: uppercase;
+  color: #0f452a;
+  text-align: center; }
+
+.btn-primary {
+  background-color: #0f452a;
+  border-color: #0f452a; }
+
+.btn-primary:hover {
+  background-color: greenyellow;
+  border-color: #0f452a;
+  color: #0f452a; }
+
+.btn-primary:active, .btn-primary:focus, .btn-primary.active .open .dropdown-toggle.btn-primary {
+  background-color: #0f452a !important;
+  border-color: #0f452a !important; }
+
 .btn-bottom-center {
   position: absolute;
   bottom: 5px;
   left: 5px;
   right: 5px; }
+
+.container-bottom-front {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.container-bottom-front-left {
+  min-height: 405px;
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  align-items: center; }
+  .container-bottom-front-left .winter-summer-title {
+    padding: 5px 0 5px 0;
+    background-color: #0f452a;
+    color: #fff; }
+
+.container-bottom-front-right {
+  background-color: grey;
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: center; }
+
+.container-hours {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
 footer {
   text-align: center;
