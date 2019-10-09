@@ -48,6 +48,8 @@ $greencolor: #0f452a;
   justify-content: space-around;
 }
 
+// This is a remark
+
 .card {
   margin: 20px 10px 20px 10px;
 }
@@ -69,12 +71,14 @@ $greencolor: #0f452a;
 }
 
 .btn-primary:hover {
-  background-color: greenyellow;
+  background-color: green;
   border-color: $greencolor;
   color: $greencolor;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary.active .open .dropdown-toggle.btn-primary {
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.active .open .dropdown-toggle.btn-primary {
   background-color: $greencolor !important;
   border-color: $greencolor !important;
 }
