@@ -17,9 +17,7 @@ $greencolor: #0f452a;
   color: $greencolor;
 }
 
-.text-align-center
-
-.caption-text-two {
+.text-align-center .caption-text-two {
   transform: translateY(-50%);
   bottom: 0;
   top: 55%;
@@ -44,7 +42,7 @@ $greencolor: #0f452a;
 }
 
 .container-services-cards {
-  max-width: 1150px;
+  width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -57,7 +55,11 @@ $greencolor: #0f452a;
 }
 
 .card {
-  margin: 20px 10px 20px 10px;
+  margin: 5px;
+}
+
+.card-body {
+  padding: 10px;
 }
 
 .dr-card {
@@ -71,7 +73,7 @@ $greencolor: #0f452a;
 
 .info-card {
   width: 13rem;
-  height: 32rem;
+  height: 29rem;
 }
 
 .card-title {
@@ -163,8 +165,6 @@ $greencolor: #0f452a;
 .family-image {
   max-width: 850px;
 }
-
-
 
 footer {
   background-color: $greencolor;
