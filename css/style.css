@@ -49,11 +49,12 @@
   padding: 10px; }
 
 .dr-card {
-  width: 33rem; }
+  width: 33rem;
+  max-height: 35.5rem; }
 
 .dr-image {
   max-width: 100%;
-  margin-bottom: 1rem; }
+  margin-bottom: 1.8rem; }
 
 .info-card {
   width: 13rem;
@@ -127,11 +128,15 @@
   justify-content: center; }
 
 .family-bio-picture-box {
+  margin: 1rem;
   display: flex;
   justify-content: center; }
 
 .family-image {
   max-width: 850px; }
+
+.generic-container {
+  margin: 0 2rem 0; }
 
 footer {
   background-color: #0f452a;
