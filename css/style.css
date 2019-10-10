@@ -23,6 +23,16 @@
 .text-align-center {
   text-align: center; }
 
+.carousel-image {
+  height: 700px;
+  width: 1246px;
+  object-fit: contain;
+  margin: 0 0 1rem 0; }
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(10%); }
+
 .container-services {
   display: flex;
   flex-wrap: wrap;
@@ -84,6 +94,9 @@
   bottom: 5px;
   left: 5px;
   right: 5px; }
+
+.modal-content {
+  background-color: red; }
 
 .container-bottom-front {
   display: flex;

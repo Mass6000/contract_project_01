@@ -87,7 +87,6 @@
             <h2 class="text-uppercase">convieniently located in spanish fork utah</h2>
             <p>Caring for the horses of Central Utah for over 25 years.</p>
           </div>
-
         </div>
         <div class="carousel-item">
           <img src="./images/large-or-small-horses-rocky-mtn-vet.jpg" class="d-block w-100"
@@ -124,8 +123,38 @@
             outcome.
           </p>
           <!-- <a href="#" class="btn btn-primary btn-bottom-center">More</a> -->
+          <!-- <button type="button" class="btn btn-primary btn-bottom-center" data-toggle="modal"
+            data-target="#exampleModal">
+            More
+          </button> -->
+          <!-- <a data-toggle="modal" href="#exampleModal" class="btn btn-primary btn-bottom-center"></a> -->
+          <a href="#exampleModal" class="btn btn-primary btn-bottom-center" data-toggle="modal">More</a>
+
         </div>
       </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Warning Graphic Content</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              The following page has images of horses with serious wounds. Please proceed with caution!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <a href="wound_care.html" class="btn btn-primary" style="color: #ffffff">Proceed</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
       <div class="card info-card">
         <img src="./images/routine-preventive-medicine-vet.jpg" class="card-img-top" alt="Horse receiving routine care">
@@ -135,7 +164,6 @@
           <a href="routine_care.html" class="btn btn-primary btn-bottom-center">More</a>
         </div>
       </div>
-
 
       <div class="card info-card">
         <img src="./images/lameness.jpg" class="card-img-top" alt="Horse being treated for lameness">
@@ -156,7 +184,7 @@
       </div>
 
       <div class="card info-card">
-        <img src="./images/equine-surgery-horse-vet_2.jpg" class="card-img-top"
+        <img src="./images/surgery1.jpg" class="card-img-top"
           alt="Horse in surgery being attended to by veterinarian">
         <div class="card-body">
           <h5 class="card-title">surgery</h5>
@@ -171,7 +199,7 @@
           <h5 class="card-title">reproduction services</h5>
           <p>Including breeding by artificial insemination, ultrasound exams, uterine treatments, mare & foal care.
           </p>
-          <a href="#" class="btn btn-primary btn-bottom-center">More</a>
+          <a href="./pdf/foaling_mares.pdf" class="btn btn-primary btn-bottom-center">More</a>
         </div>
       </div>
 
@@ -216,6 +244,8 @@
 
     </div>
   </div>
+
+  <hr align="center" width="95%">
 
   <div class="container-bottom-front">
 
@@ -286,9 +316,7 @@
     crossorigin="anonymous"></script>
 </body>
 <footer>
-  <div>© 2019-2020 Rocky Mountain Large Animal Clinic 3226 N. 1150 W. (Google Maps or County Address: 4500 S. 800 W.
-    Spanish Fork,
-    UT 84660 )</div>
+  <div>© 2019-2020 Rocky Mountain Large Animal Clinic 3226 N 1150 W, Spanish Fork, UT 84660</div>
 </footer>
 
 </html>
