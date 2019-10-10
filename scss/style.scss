@@ -17,6 +17,8 @@ $greencolor: #0f452a;
   color: $greencolor;
 }
 
+.text-align-center
+
 .caption-text-two {
   transform: translateY(-50%);
   bottom: 0;
@@ -48,10 +50,23 @@ $greencolor: #0f452a;
   justify-content: space-around;
 }
 
-// This is a remark
+.container-drs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 .card {
   margin: 20px 10px 20px 10px;
+}
+
+.dr-card {
+  width: 33rem;
+}
+
+.dr-image {
+  max-width: 100%;
+  margin-bottom: 1rem;
 }
 
 .info-card {
@@ -73,7 +88,7 @@ $greencolor: #0f452a;
 .btn-primary:hover {
   background-color: green;
   border-color: $greencolor;
-  color: $greencolor;
+  // color: $greencolor;
 }
 
 .btn-primary:active,
@@ -121,10 +136,42 @@ $greencolor: #0f452a;
   justify-content: space-around;
 }
 
+.bio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.bio-left {
+  max-width: 650px;
+}
+
+.bio-right {
+  max-width: 500px;
+  margin: 1rem 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.family-bio-picture-box {
+  display: flex;
+  justify-content: center;
+}
+
+.family-image {
+  max-width: 850px;
+}
+
+
+
 footer {
+  background-color: $greencolor;
   text-align: center;
   padding: 10px;
   border: 10px;
+  color: #ffffff;
 }
 
 // Bootstrap 4.3.1 CDN RFS (Reflexive Font Size) work-a-round information - do not delete
