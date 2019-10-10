@@ -127,10 +127,22 @@ $greencolor: #0f452a;
 }
 
 .container-bottom-front-right {
-  background-color: grey;
   margin: 1rem 0 1rem 0;
   display: flex;
   justify-content: center;
+}
+
+.container-bottom-front-right-two {
+  margin: 1rem 0 1rem 0;
+  max-width: 19rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-center {
+  text-align: center;
 }
 
 .container-hours {
