@@ -31,6 +31,11 @@ $greencolor: #0f452a;
   text-align: center;
 }
 
+.carousel-nav-icon {
+  height: 48px;
+  width: 48px;
+}
+
 .carousel-image {
   height: 700px;
   width: 1246px;
@@ -38,10 +43,10 @@ $greencolor: #0f452a;
   margin: 0 0 1rem 0;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-  filter: invert(10%);
-}
+// .carousel-control-next,
+// .carousel-control-prev {
+//   filter: red;
+// }
 
 .container-services {
   display: flex;
