@@ -91,13 +91,16 @@
   left: 5px;
   right: 5px; }
 
-.modal-content {
+.warning-color {
   background-color: red; }
 
 .container-bottom-front {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
+
+.modal-picture-center {
+  text-align: center; }
 
 .container-bottom-front-left {
   min-height: 405px;
